@@ -1,0 +1,7 @@
+CREATE TABLE t_products (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(250) NOT NULL,
+    description VARCHAR(250) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    PRIMARY KEY (id)
+);
