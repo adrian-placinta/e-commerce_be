@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS t_inventory (
+CREATE TABLE IF NOT EXISTS t_orders (
     id BIGINT NOT NULL AUTO_INCREMENT,
     product_id BIGINT NOT NULL,
     quantity BIGINT NOT NULL,
