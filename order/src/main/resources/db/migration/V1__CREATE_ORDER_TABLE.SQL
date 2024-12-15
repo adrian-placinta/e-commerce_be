@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS t_inventory (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    product_id BIGINT NOT NULL,
+    quantity BIGINT NOT NULL,
+    PRIMARY KEY (id)
+);
